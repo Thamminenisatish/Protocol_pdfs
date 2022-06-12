@@ -1,0 +1,75 @@
+c t 
+set rmon enable
+end
+
+c t
+int gi 0/1
+map switch default
+no shut
+rmon collection stats 1 owner monitor
+rmon collection history 1 buckets 10 interval 30 owner monitor
+end
+
+c t
+int gi 0/2
+map switch default
+no shut
+rmon collection stats 2 owner monitor
+rmon collection history 2 buckets 10 interval 30 owner monitor
+end
+
+c t
+int gi 0/3
+map switch default
+no shut
+rmon collection stats 3 owner monitor
+rmon collection history 3 buckets 10 interval 30 owner monitor
+end
+
+c t
+int gi 0/4
+map switch default
+no shut
+rmon collection stats 4 owner monitor
+rmon collection history 4 buckets 10 interval 30 owner monitor
+end
+
+c t
+int gi 0/5
+map switch default
+no shut
+rmon collection stats 5 owner monitor
+rmon collection history 5 buckets 10 interval 30 owner monitor
+end
+
+c t
+int gi 0/6
+map switch default
+no shut
+rmon collection stats 6 owner monitor
+rmon collection history 6 buckets 10 interval 30 owner monitor
+end
+
+c t
+int gi 0/7
+map switch default
+no shut
+rmon collection stats 7 owner monitor
+rmon collection history 7 buckets 10 interval 30 owner monitor
+end
+
+c t
+int gi 0/8
+map switch default
+no shut
+rmon collection stats 8 owner monitor
+rmon collection history 8 buckets 10 interval 30 owner monitor
+end
+
+c t
+int gi 0/9
+map switch default
+no shut
+rmon collection stats 9 owner monitor
+rmon collection history 9 buckets 10 interval 30 owner monitor
+end
