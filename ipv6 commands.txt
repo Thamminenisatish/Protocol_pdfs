@@ -1,0 +1,87 @@
+show ip route | begin Gateway
+
+Router#clear ipv6 rip
+
+Deletes routes from the IPv6 RIP routing table and, if installed, routes in the IPv6 routing table
+
+Router#clear ipv6 route *
+
+Deletes all routes from the IPv6 routing table
+
+NOTE: Clearing all routes from the routing table will cause high CPU utilization rates as the routing table is rebuilt.
+
+Router#clear ipv6 route 2001:db8:c18:3::/64
+
+Clears this specific route from the IPv6 routing table.
+
+Router#clear ipv6 traffic
+
+Resets IPv6 traffic counters.
+
+Router#debug ipv6 packet
+
+Displays debug messages for IPv6 packets.
+
+Router#debug ipv6 rip
+
+Displays debug messages for IPv6 RIP routing transactions.
+
+Router#debug ipv6 routing
+
+Displays debug messages for IPv6 routing table updates and route cache updates.
+
+Router#show ipv6 interface
+
+Displays the status of interfaces configured for IPv6.
+
+Router#show ipv6 interface brief
+
+Displays a summarized status of interfaces configured for IPv6.
+
+Router#show ipv6 neighbors
+
+Displays IPv6 neighbor discovery cache information.
+
+Router#show ipv6 protocols
+
+Displays the parameters and current state of the active IPv6 routing protocol processes.
+
+Router#show ipv6 rip
+
+Displays information about the current IPv6 RIP process.
+
+Router#show ipv6 route
+
+Displays the current IPv6 routing table.
+
+Router#show ipv6 route summary
+
+Displays a summarized form of the current IPv6 routing table.
+
+Router#show ipv6 routers
+
+Displays IPv6 router advertisement information received from other routers.
+
+Router#show ipv6 static
+
+Displays only static IPv6 routes installed in the routing table.
+
+Router#show ipv6 static 2001:db8:5555:0/16
+
+Displays only static route information about the specific address given.
+
+Router#show ipv6 static interface serial 0/0
+
+Displays only static route information with the specified interface as the outgoing interface.
+
+Router#show ipv6 static detail
+
+Displays a more detailed entry for IPv6 static routes.
+
+Router#show ipv6 traffic
+
+Displays statistics about IPv6 traffic.
+
+Router#show ipv6 tunnel
+
+Displays IPv6 tunnel information.
